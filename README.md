@@ -14,9 +14,9 @@ None for now
 
 ## XML Schemas
 
-| Name   | URI                                                      |
-| ------ | -------------------------------------------------------- |
-| CKUIML | https://chsxf.github.io/CiderKit-DTDs-Schemas/ckuiml.xsd |
+| Name   | URI                                           |
+| ------ | --------------------------------------------- |
+| CKUIML | ttp://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd |
 
 # ⚖️ License
 
