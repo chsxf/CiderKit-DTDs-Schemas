@@ -16,7 +16,7 @@ None for now
 
 | Name   | URI                                           |
 | ------ | --------------------------------------------- |
-| CKUIML | ttp://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd |
+| CKUIML | http://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd |
 
 # ⚖️ License
 
