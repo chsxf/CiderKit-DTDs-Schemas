@@ -14,8 +14,8 @@ None for now
 
 ## XML Schemas
 
-| Name   | URI                                           |
-| ------ | --------------------------------------------- |
+| Name   | URI                                             |
+| ------ | ----------------------------------------------- |
 | CKUIML | https://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd |
 
 # ⚖️ License
