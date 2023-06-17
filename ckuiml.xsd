@@ -12,10 +12,6 @@
     <xs:element name="element">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="padding" minOccurs="0" />
-                <xs:element ref="position" />
-                <xs:element ref="anchors" />
-                <xs:element ref="pivot" />
                 <xs:element ref="data" minOccurs="0" />
                 <xs:element ref="style" minOccurs="0" />
                 <xs:element ref="element" minOccurs="0" maxOccurs="unbounded" />
@@ -45,40 +41,6 @@
         <xs:complexType>
             <xs:attribute name="name" type="xs:string" use="required" />
             <xs:attribute name="value" type="xs:string" use="required" />
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="padding">
-        <xs:complexType>
-            <xs:attribute name="top" type="xs:decimal" />
-            <xs:attribute name="right" type="xs:decimal" />
-            <xs:attribute name="bottom" type="xs:decimal" />
-            <xs:attribute name="left" type="xs:decimal" />
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="position">
-        <xs:complexType>
-            <xs:attribute name="x" type="xs:decimal" use="required" />
-            <xs:attribute name="y" type="xs:decimal" use="required" />
-            <xs:attribute name="dx" type="xs:decimal" use="required" />
-            <xs:attribute name="dy" type="xs:decimal" use="required" />
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="anchors">
-        <xs:complexType>
-            <xs:attribute name="xmin" type="xs:decimal" use="required" />
-            <xs:attribute name="xmax" type="xs:decimal" use="required" />
-            <xs:attribute name="ymin" type="xs:decimal" use="required" />
-            <xs:attribute name="ymax" type="xs:decimal" use="required" />
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="pivot">
-        <xs:complexType>
-            <xs:attribute name="x" type="xs:decimal" use="required" />
-            <xs:attribute name="y" type="xs:decimal" use="required" />
         </xs:complexType>
     </xs:element>
 

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ckuiml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd">
-    <element id="root">
-        <position x="0" y="0" dx="0" dy="0" />
-        <anchors xmin="0.5" xmax="0.5" ymin="0.5" ymax="0.5" />
-        <pivot x="0.5" y="0.5" />
+    <element id="root" type="panel">
+        <element id="my-button" type="button">
+            <data>
+                <property name="label" value="My Button" />
+            </data>
+        </element>
     </element>
 </ckuiml>
