@@ -18,6 +18,7 @@
             </xs:sequence>
             <xs:attribute name="id" type="xs:ID" use="required" />
             <xs:attribute name="type" type="xs:string" use="optional" default="container" />
+            <xs:attribute name="class" type="xs:string" use="optional" />
         </xs:complexType>
     </xs:element>
 

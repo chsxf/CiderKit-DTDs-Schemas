@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ckuiml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd">
     <element id="root" type="panel">
-        <element id="my-button" type="button">
+        <element id="my-button" type="button" class="submit-button">
             <data>
                 <property name="label" value="My Button" />
             </data>
