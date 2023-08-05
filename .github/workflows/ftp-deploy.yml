@@ -15,6 +15,6 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        server-dir: DTDs-Schemas/
+        server-dir: ciderkit/DTDs-Schemas/
         dangerous-clean-slate: true
         
