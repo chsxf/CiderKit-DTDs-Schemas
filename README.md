@@ -2,9 +2,7 @@
 
 This repositories stores all document type definitions (DTD) and XML schemas used by CiderKit to validate source files.
 
-## Conventions
-
-This project uses [gitmoji](https://gitmoji.dev) for its commit messages.
+[![](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.dev/)
 
 # 🔗 Available Files
 
