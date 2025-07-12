@@ -12,8 +12,8 @@
     <xs:element name="element">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="data" minOccurs="0" />
-                <xs:element ref="style" minOccurs="0" />
+                <xs:element ref="style" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="data" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element ref="element" minOccurs="0" maxOccurs="unbounded" />
             </xs:sequence>
             <xs:attribute name="type" type="xs:string" use="optional" default="container" />
@@ -24,21 +24,12 @@
 
     <xs:element name="data">
         <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="property" maxOccurs="unbounded" />
-            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required" />
+            <xs:attribute name="value" type="xs:string" use="required" />
         </xs:complexType>
     </xs:element>
 
     <xs:element name="style">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="property" maxOccurs="unbounded" />
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
-
-    <xs:element name="property">
         <xs:complexType>
             <xs:attribute name="name" type="xs:string" use="required" />
             <xs:attribute name="value" type="xs:string" use="required" />

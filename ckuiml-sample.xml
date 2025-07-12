@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ckuiml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://dtdschema.ciderkit.chsxf.dev/ckuiml.xsd">
-    <element id="root" type="panel">
-        <element id="my-button" type="button" class="submit-button">
-            <data>
-                <property name="label" value="My Button" />
-            </data>
+    <element>
+        <style name="anchored-position" value="10px 10px" />
+        <style name="anchors" value="left bottom" />
+        <style name="transform-origin" value="left bottom" />
+
+        <element type="button" id="quit-button">
+            <style name="anchors" value="left bottom" />
+            <style name="anchored-position" value="0 0" />
+            <style name="transform-origin" value="left bottom" />
+            <style name="padding" value="3px 5px" />
+
+            <data name="text" value="Quit Game" />
+        </element>
+
+        <element type="button" id="settings-button">
+            <style name="anchors" value="left bottom" />
+            <style name="anchored-position" value="0 25px" />
+            <style name="transform-origin" value="left bottom" />
+            <style name="padding" value="3px 5px" />
+
+            <data name="text" value="Settings" />
+            <data name="disabled" value="true" />
+        </element>
+        
+        <element type="button" id="play-button">
+            <style name="anchors" value="left bottom" />
+            <style name="anchored-position" value="0 50px" />
+            <style name="transform-origin" value="left bottom" />
+            <style name="padding" value="3px 5px" />
+
+            <data name="text" value="Play" />
         </element>
     </element>
 </ckuiml>
